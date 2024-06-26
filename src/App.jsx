@@ -62,7 +62,7 @@ function App() {
   const addTodo = () => {
     const newTodo = prompt('Digite a nova tarefa:');
     if (newTodo) {
-      setTodo([...todo, newTodo]);
+      setTodo([...todo, newTodo.toUpperCase()]);
     }
   };
 
