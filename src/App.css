@@ -193,3 +193,9 @@ body{
   background-color: #84817a;
   border: 1px solid white;
 }
+
+@media (max-width: 768px) {
+  .title span{
+    font-size: 25px;
+  }
+}
