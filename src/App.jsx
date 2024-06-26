@@ -15,6 +15,8 @@ function App() {
       // Remove o item da lista todo
       const updatedTodo = todo.filter(item => item !== selectedItem);
       const updatedDoing = doing.filter(item => item !== selectedItem);
+      const updatedDone = done.filter(item => item !== selectedItem);
+      setDone(updatedDone)
       setTodo(updatedTodo);
       setDoing(updatedDoing);
       

@@ -200,6 +200,6 @@ body{
     font-size: 25px;
   }
   .container{
-    min-height: 900px;
+    min-height: auto;
   }
 }
